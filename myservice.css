@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #f8f8f8; 
+}
+
+.espaco1{
+    display: flex;
+    min-height: 100vh;
+}
+
+.barralateral{
+    background-color: #f0f0f0;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 40px;
+    min-width: 43vh;
+    width: 43vh;
+    z-index: 10;
+}
+
+.topobarralateral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home{
+    margin-top: 45px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.home a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+  
+.aura a{
+    color: #000000;
+    text-decoration: underline;
+}
+  
+  
+.caixatxt{
+    text-align: center;
+    width: 100%;
+}
+  
+.caixatxt h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #000;
+}
+  
+.Newsletter{
+    width: 100%;
+    display: flex;
+}
+  
+.Newsletter input{
+    width: 75%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    font-size: 13px;
+}
+  
+.Newsletter button{
+    width: 45px;
+    border: 1px solid #e0e0e0;
+    border-left: #00000000;
+    outline: none;
+    background: white;
+    cursor: pointer;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.Newsletter button i{
+    color: #888;
+}
+
+.louie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.imagemlouie{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image: url("https://preview.colorlib.com/theme/louie/images/author.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.louie h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  padding: 90px 0 40px 0;
+}
+
+.footer2 {
+  width: 75%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.footer-fotos {
+  flex: 1;
+}
+
+.footer-fotos h3 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+}
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: calc(75px * 3 + 12px * 2);
+}
+
+.foto1{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("https://preview.colorlib.com/theme/louie/images/image_1.jpg");
+}
+
+.foto2{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_2.jpg");
+}
+
+.foto3{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_3.jpg");
+}
+
+.foto4{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_4.jpg"); 
+}
+
+.foto5{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_5.jpg"); 
+}
+
+.foto6{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_6.jpg") ;
+}
+
+.archives {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.archives li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+
+  font-size: 14px;
+  color: #bbb;
+}
+
+.archives li span:last-child {
+  color: white;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.info i {
+  font-size: 14px;
+  color: white;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.info p {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+
+.copyright {
+  width: 75%;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 13px;
+  color: #888;
+}
+
+.louies-servicos {
+    background-color: #c8a97e;
+    padding: 60px 80px;
+}
+
+.breadcrumb {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #555;
+    margin-right: 10px;
+}
+
+.breadcrumb span {
+    font-weight: 700;
+    color: #000;
+}
+
+.louies-servicos h1 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #000;
+}
+
+.grade-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    gap: 60px 40px;
+    background: #fff;
+}
+
+.card-servico {
+    flex: 1 1 calc(33% - 40px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icone-circulo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-circulo i {
+    font-size: 36px;
+    color: #444;
+}
+
+.card-texto h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.card-texto p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.7;
+}
